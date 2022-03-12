@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
@@ -16,7 +17,9 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by Naim Abbasi</footer>
+        <footer className="App-footer">
+          <small>Coded by Naim Abbasi</small>
+        </footer>
       </div>
     </div>
   );
