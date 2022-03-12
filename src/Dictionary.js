@@ -1,8 +1,8 @@
-import React, { usestate } from "react";
-import "./Dictionary.ess";
+import React, { useState } from "react";
+import "./Dictionary.css";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = usestate("");
+  let [keyword, setKeyword] = useState("");
 
   function search(event) {
     event.preventDefault();
@@ -15,8 +15,8 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onsubmit={search}>
-        <input type="search" onchange={handleKeywordChange} />
+      <form onSubmit={search}>
+        <input type="search" onChange={handleKeywordChange} />
       </form>
     </div>
   );
