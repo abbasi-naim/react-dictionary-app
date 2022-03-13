@@ -14,7 +14,7 @@
 }
 
 .Phonetic a:hover {
-  background: #0be6a4;
+  background: hsl(202, 91%, 47%);
   color: white;
 }
 
